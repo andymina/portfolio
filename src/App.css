@@ -1,33 +1,35 @@
-.App {
-  text-align: center;
+@font-face {
+	font-family: 'OstrichSans';
+	src: url('./assets/OstrichSans-Medium.otf');
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
+@font-face {
+	font-family: 'OstrichSans Black';
+	src: url('./assets/OstrichSans-Black.otf');
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+#backgroundContainer {
+	height: 60vh;
+	background: url('./assets/hero.png') no-repeat center;
+	background-size: contain;
 }
 
-.App-link {
-  color: #61dafb;
+.c-nav-link {
+	color: white !important;
+	font-family: 'OstrichSans';
+	font-size: 1.5em;
+	letter-spacing: 5px
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.skill-text {
+	color: #FFF;
+   font-size: 2em;
+}
+
+.desc-text {
+   font-size: 1.25em;
+}
+
+.hero-text {
+	color: #FFF;
 }
